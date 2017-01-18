@@ -1,0 +1,21 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "Movie App",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "cubittz",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^1.4.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
